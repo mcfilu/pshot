@@ -1,23 +1,21 @@
 import React from 'react'
-import { reduction, pshot1, shockwave2} from '../assets'
+import {  shockwave3 } from '../assets'
 
 const ShockImage = () => {
   return (
     <div className={`relative`}>
-        <img className={`w-screen h-screen object-cover`} src={shockwave2}></img>
-        <div className={`absolute left-[5vw] top-1/3`}>
-            <h1 className={`text-gold1  text-[8vh]`}>O Concept ShockWave</h1>
-            <h1 className={`text-gold1  text-[6vh]`}>For Him</h1>
-            <ul className={`text-white font-poppins text-[2.2vh] mt-[3vh]`}>
-                <li className={`flex items-center mt-[2vh]`}><i class="" className={`mr-4 fa-solid fa-circle text-[1.2vh]`}></i>Non-invasive procedure utilizing advanced technology.</li>
-                <li className={`flex items-center mt-[2vh]`}><i class="" className={`mr-4 fa-solid fa-circle text-[1.2vh]`}></i>HBoosts overall sexual health and wellness.</li>
-                <li className={`flex items-center mt-[2vh]`}><i class="" className={`mr-4 fa-solid fa-circle text-[1.2vh]`}></i>Helps optimize sexual performance by improving pelvic muscle strength and blood flow.</li>
-                <li className={`flex items-center mt-[2vh]`}><i class="" className={`mr-4 fa-solid fa-circle text-[1.2vh]`}></i>Enhances male confidence and satisfaction.</li>
-                <li className={`flex items-center mt-[2vh]`}><i class="" className={`mr-4 fa-solid fa-circle text-[1.2vh]`}></i>Noticeable, sustainable improvements with regular sessions and zero recovery time.</li>
-            </ul>
-            
+        <img className={`w-screen h-screen object-cover`} src={shockwave3}></img>
+        <div className={`absolute left-[1.5vw] top-[28%] md:w-[45%]`}>
+        {/* <div className={`flex flex-col justify-center items-left h-screen w-[35%] ml-[3vh]`}> */}
+                    {/* <h1 className={`text-gold1 text-[8vh] font-header mb-[3vh] mt-20 text-left`}>Vampire Breast Lift™ </h1> */}
+                    <h1 className={`text-gold1 text-[8vh] font-header  mt-[3vh] text-left`}>O-Concept</h1>
+                <h1 className={`text-gold1 text-[8vh] font-header mb-[1vh] text-left`}>Shockwave for Him</h1>
+                        <h1 className={`text-white text-[2.5vh] font-main mb-[1vh] text-left  w-full md:w-[75%]`}>Reignite your sexual vitality with the O-Concept Shockwave. This cutting-edge solution enhances sexual health, performance, and pleasure for a transformative experience. Rediscover satisfaction, regain confidence, and elevate your intimate encounters to new heights.</h1>
+                        <a className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
+                       
+                    {/* </div> */}
         </div>
-        <i className={`pl-6 pr-6 pt-5 pb-5 text-[20px] absolute fa-solid fa-arrow-down bg-white rounded-full left-1/2 transform -translate-x-1/2 bottom-10 animate-bounce`}></i>
+        {/* <i className={`pl-6 pr-6 pt-5 pb-5 text-[20px] absolute fa-solid fa-arrow-down bg-white rounded-full left-1/2 transform -translate-x-1/2 bottom-10 animate-bounce`}></i> */}
     </div>
   )
 }

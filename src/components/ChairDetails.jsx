@@ -1,52 +1,25 @@
 import React from 'react'
-import { PopupButton } from "react-calendly";
-import { BloodCells, sherif } from '../assets';
+// import { PopupButton } from "react-calendly";
+import { blood_cells } from '../assets';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { NavLink } from 'react-router-dom';
 
 const ChairDetails = () => {
   return (
-    <div className={`flex w-11/12 flex-row bg-black bg-opacity-50 ml-[4%] mr-[4%] h-[70vh] rounded-[9px] p-[2vh] hover:bg-opacity-60 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
-         <div className={`w-2/5 h-[100%] flex items-center`}>
-            <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video>
-            {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
-        </div>
-        <div className={`w-[60%] h-[100%] bg-black bg-opacity-60 rounded-[9px] p-[1vh] flex flex-col items-left justify-between ml-[1.5vh]`}>
-            <div className={`flex flex-col w-[100%]  bg-opacity-40 rounded-[9px] items-center justify-center my-auto`}>
+    <div className={` flex w-full flex-row     `}>
+         
+        <div className={`hidden md:flex w-[55%] h-[100%]   flex flex-col items-left justify-between md:p-[2vh] pt-[0px] `}>
+            <div className={`flex flex-col w-[100%]   items-center justify-center my-auto p-[1vh]`}>
 
-                <p className={`flex text-gold1 text-[4.5vh] text-center text-gold1`}>Treatment Technique</p>
-                <p className={`flex text-white text-[1.9vh] mt-[5vh]`}>Have you tried pelvic floor exercises before? Your pelvic muscles
-play an important role in ejaculation, erectile strength, orgasmic pleasure and bladder
-control. Unfortunately, these muscles weaken as you age, so exercising them is a must. And
-to make it as simple as possible for you, I have developed the O Concept™ Chair.</p>
-                <p className={`flex text-white text-[1.9vh] mt-[2.5vh]`}>Have you tried pelvic floor exercises before? Your pelvic muscles
-play an important role in ejaculation, erectile strength, orgasmic pleasure and bladder
-control. Unfortunately, these muscles weaken as you age, so exercising them is a must. And
-to make it as simple as possible for you, I have developed the O Concept™ Chair.</p>
-<p className={`flex text-white text-[1.9vh] mt-[2.5vh]`}>Have you tried pelvic floor exercises before? Your pelvic muscles
-play an important role in ejaculation, erectile strength, orgasmic pleasure and bladder
-control. Unfortunately, these muscles weaken as you age, so exercising them is a must. And
-to make it as simple as possible for you, I have developed the O Concept™ Chair.</p>
-                {/* <p className={`flex text-white text-[1.9vh] mt-[1.5vh]`}>Erectile dysfunction is a common problem experienced, to some degree, by
-almost half of the UK’s male population who are aged between 40 and 70. In other
-words, several million UK men suffer with erectile dysfunction, with causes including
-not only tiredness, stress and anxiety but also:</p> */}
-                {/* <ul className={`text-white text-[1.7vh] font-poppins my-[1.5vh] mb-6`}>
-                            <li className={`flex items-center`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px] text-gold1`}></i>Vasculogenic conditions affecting the flow of blood to the penis, like cardiovascular
-disease, high blood pressure, diabetes and raised cholesterol.</li>
-                            <li className={`flex items-center mt-[1vh]`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px] text-gold1`}></i>Neurogenic conditions affecting the nervous system, like multiple sclerosis, stroke,
-Parkinson’s disease, spinal injuries/disorders and diabetes.</li>
-                            <li className={`flex items-center mt-[1vh]`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px] text-gold1`}></i>Grooves in the skin on the shoulders where bras staps dig in due to the heaviness of the breast.</li>
-                            <li className={`flex items-center mt-[1vh]`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px] text-gold1`}></i>Anatomical conditions affecting the penis’ structure, like Peyronie’s disease</li>
-                            <li className={`flex items-center mt-[1vh]`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px] text-gold1`}></i>Penis injuries.</li>
-                            <li className={`flex items-center mt-[1vh]`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px] text-gold1`}></i>Poor posture which exacerbates back pain and can cause curvatures to the spine.</li>
-                            
-                        </ul> */}
-                {/* <p className={`flex text-white text-[1.9vh] mt-[1.5vh]`}>The treatment involves taking a small sample of blood and placing it in a centrifuge to extract the Platelet Rich Plasma (PRP) which is then injected back into the face or body, in this case the breast area.</p> */}
-                {/* <p className={`flex text-white text-[1.9vh] mt-[1.5vh]`}>Now a very popular and extremely effective method of treating erectile dysfunction
-symptoms, the penis rejuvenating P-Shot can improve the overall health of your
-genital area.</p> */}
-
+                <p className={`flex text-gold1 text-[5vh] text-center font-header`}>How does it work?</p>
+                <p className={`flex text-white text-[2.2vh] mt-[5vh] font-main`}>Introducing the groundbreaking O Concept™ Chair, a revolutionary device designed to simplify and enhance your pelvic floor exercise routine. This innovative chair harnesses the power of high-intensity focused electromagnetic (HIFEM) technology to stimulate and strengthen your pelvic floor muscles like never before. With an impressive 16,000 contractions in just 30 minutes, the O Concept™ Chair offers exceptional effectiveness compared to traditional exercises.</p>
+                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] font-main`}>One of the key advantages of the O Concept™ Chair is its ability to provide targeted support and guidance during your exercise sessions. Its ergonomic design ensures optimal positioning and engagement of the pelvic muscles, maximizing the results of your workouts and enabling you to achieve the best possible outcomes.</p>
+                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] font-main`}>By incorporating the O Concept™ Chair into your routine, you can experience a myriad of benefits that positively impact your overall well-being. Strengthening your pelvic muscles through regular use of the chair improves ejaculation control, allowing you to prolong and intensify pleasure during intimate moments. It also contributes to better erectile strength, enhancing your overall sexual performance and boosting your confidence.</p>
+                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] font-main`}>Furthermore, the O Concept™ Chair empowers you to regain control over bladder function. By strengthening your pelvic floor muscles, you can prevent or alleviate issues such as urinary incontinence, ensuring that you can engage in daily activities without interruption or concern.</p>
+                {/* <p className={`flex text-white text-[2.2vh] mt-[1.5vh] font-main`}>The PRP contains a large concentration of growth factors, crucial cells responsible for revitalization and renewal in our bodies, making it a potent and natural approach to rejuvenation.</p> */}
+                <NavLink to={`/book-now`}><button className={` text-[3vh] px-[2vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 hover:bg-white mt-[5vh]  md:mt-[2vh] font-main`}>Book Consultation</button></NavLink>
             </div>
+
             {/* <div className={`flex flex-col w-[100%]  bg-opacity-70 rounded-[9px] my-[1vh]`}>
 
                 <p className={`text-white font-poppins text-[2vh] my-[1vh] text-justify`}>This non-surgical treatment can be used to restore natural health and youthfulness to the skin on the face by harnessing the natural healing powers of the human body to repair damaged skin and stimulate new skin cell growth.</p>
@@ -61,6 +34,22 @@ genital area.</p> */}
                 textColor="#ffffff"
                 color="#ffffff"
                 /></p> */}
+        </div>
+        <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
+            <video src={blood_cells} autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
+            {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
+        </div>
+
+        <div className={`flex flex-col md:hidden items-center`}>
+            <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
+            <video src={blood_cells} autoPlay loop muted className={` object-cover h-[100%]`}></video>
+                <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>Introducing the groundbreaking O Concept™ Chair, a revolutionary device designed to simplify and enhance your pelvic floor exercise routine. This innovative chair harnesses the power of high-intensity focused electromagnetic (HIFEM) technology to stimulate and strengthen your pelvic floor muscles like never before. With an impressive 16,000 contractions in just 30 minutes, the O Concept™ Chair offers exceptional effectiveness compared to traditional exercises.</p>
+                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>One of the key advantages of the O Concept™ Chair is its ability to provide targeted support and guidance during your exercise sessions. Its ergonomic design ensures optimal positioning and engagement of the pelvic muscles, maximizing the results of your workouts and enabling you to achieve the best possible outcomes.</p>
+                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>By incorporating the O Concept™ Chair into your routine, you can experience a myriad of benefits that positively impact your overall well-being. Strengthening your pelvic muscles through regular use of the chair improves ejaculation control, allowing you to prolong and intensify pleasure during intimate moments. It also contributes to better erectile strength, enhancing your overall sexual performance and boosting your confidence.</p>
+                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>Furthermore, the O Concept™ Chair empowers you to regain control over bladder function. By strengthening your pelvic floor muscles, you can prevent or alleviate issues such as urinary incontinence, ensuring that you can engage in daily activities without interruption or concern.</p>
+                {/* <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>The PRP contains a large concentration of growth factors, crucial cells responsible for revitalization and renewal in our bodies, making it a potent and natural approach to rejuvenation.</p> */}
+                <NavLink to={`/book-now`}><button className={` text-[3vh] px-[2vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 hover:bg-white mt-[5vh]  md:mt-[1vh] font-main`}>Book Consultation</button></NavLink>
+
         </div>
        
        

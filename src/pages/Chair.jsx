@@ -21,6 +21,7 @@ import ChairSummary from '../components/ChairSummary'
 import ChairTreated from '../components/ChairTreated'
 import ChairVideo from '../components/ChairVideo'
 import FooterBook from '../components/FooterBook'
+import OconceptInfo from '../components/OconceptInfo'
 
 const Chair = () => {
   return (
@@ -65,21 +66,24 @@ const Chair = () => {
               <div className={`flex  w-full items-center mt-[7vh]`}>
                   <ChairSummary/>
               </div>
-              <div className={`flex  w-full md:hidden items-center mt-[7vh]`}>
-                  <ChairCompare/>
+              <div className={`flex  w-full items-center mt-[7vh]`}>
+                  <OconceptInfo/>
               </div>
-              <div className={`flex  w-full  md:hidden items-center mt-[7vh]`}>
+              {/* <div className={`flex  w-full md:hidden items-center mt-[7vh]`}>
+                  <ChairCompare/>
+              </div> */}
+              <div className={`flex  w-full md:w-[70%] md:mx-auto items-center mt-[7vh]`}>
                   <ChairFaqs/>
               </div>
              
-              <div className={`hidden md:flex flex-row w-full h-auto    mt-[7vh] `}>
+              {/* <div className={`hidden md:flex flex-row w-full h-auto    mt-[7vh] `}>
                 <div className={`flex w-1/2 border-r-gold1 border-r-2`}>
                   <ChairFaqs/>
                 </div>
                 <div className={`flex w-1/2`}>
                     <ChairCompare/>
                 </div>
-              </div>
+              </div> */}
               {/* <div className={`flex  w-full h-auto  justify-center items-center  mt-[7vh] `}>
                   
               </div> */}

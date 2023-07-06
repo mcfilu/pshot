@@ -4,6 +4,11 @@ import Footer from '../components/Footer'
 
 import BookNow from '../components/BookNow'
 import ClinicReviews from '../components/ClinicReviews'
+import YoutubeTestimonials from '../components/YoutubeTestimonials'
+import WakilSummary from '../components/WakilSummary'
+import TrustPilotSlider from '../components/TrustPilotSlider'
+import Awards from '../components/Awards'
+import Media from '../components/Media'
 
 import ShockBenefits from '../components/ShockBenefits'
 import ShockCompare from '../components/ShockCompare'
@@ -15,62 +20,103 @@ import ShockServices from '../components/ShockServices'
 import ShockSummary from '../components/ShockSummary'
 import ShockTreated from '../components/ShockTreated'
 import ShockVideo from '../components/ShockVideo'
-import YoutubeTestimonials from '../components/YoutubeTestimonials'
-
+import FooterBook from '../components/FooterBook'
+import OconceptInfo from '../components/OconceptInfo'
 
 const Shock = () => {
   return (
-    <div className={`bg-primary w-full`}>
+    <div className={`bg- w-full`}>
+      {/* <div className={`hidden md:fixed fixed z-20 `}>
+            <video src={vampire_Shock_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
+        </div> */}
 
         <div className={`fixed z-10 `}>
             <Navbar/>
+        </div>
+        <div className={`fixed w-full bottom-0 left-0 z-20 `}>
+            <FooterBook/>
         </div>
         <div className={`relative z-0 ` }>
 
                 <ShockImage/>
 
         </div>
-        <div className="flex flex-col book2-gradient" >
-        <div className={`flex flex-col justify-center mx-auto max-w-[80vw]`}>
-              <div className={`flex  w-full h-[80vh] justify-center items-center mt-[20vh] `}>
+        <div className="flex flex-col bg-black" >
+        <div className={`flex flex-col justify-center mx-auto w-full`}>
+              <div className={`flex  w-full  justify-center mt-20`}>
                 <ShockOpening/>
               </div>
-              <div className={`flex  w-full h-[90vh] justify-center items-center  `}>
+              <div className={`flex  w-full  items-center justify-center mt-[7vh]`}>
+                  <WakilSummary/>
+              </div>
+              <div className={`flex  w-full  justify-center  mt-[7vh]`}>
                 <ShockDetails/>
               </div>
-              <div className={`flex  w-full h-[90vh] items-center   `}>
+              <div className={`flex  w-full  items-center mt-[7vh]`}>
                   <ShockBenefits/>
               </div>
-              <div className={`flex  w-full h-auto min-h-[90vh] justify-center items-center py-[10vh] `}>
-                  <ShockCompare/>
+              <div className={`flex  w-full  items-center mt-[7vh] `}>
+                  <ShockTreated/>
               </div>
-              <div className={`flex  w-full h-auto min-h-[90vh] justify-center items-center  py-[10vh]`}>
-                  <ShockFaqs/>
-              </div>
-              <div className={`flex  w-full h-[90vh] justify-center items-center  `}>
-                <YoutubeTestimonials/>
-              </div>
-              <div className={`flex  w-full h-[90vh] items-center   `}>
-                  <ShockSummary/>
-              </div>
-              <div className={`flex  w-full h-[90vh] items-center  justify-center `}>
+              
+              <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
                   <ShockVideo/>
               </div>
               
-              <div className={`flex  w-full h-[90vh] items-center   `}>
-                  <ShockTreated/>
+              <div className={`flex  w-full items-center mt-[7vh]`}>
+                  <ShockSummary/>
               </div>
-              <div className={`flex  w-full h-[90vh] items-center   `}>
-                  <ClinicReviews/>
+              <div className={`flex  w-full items-center mt-[7vh]`}>
+                  <OconceptInfo/>
               </div>
-              
-              <div className={`flex  w-full h-[90vh] items-center   `}>
-                  <ShockServices/>
+              <div className={`flex  w-full md:hidden items-center mt-[7vh]`}>
+                  <ShockCompare/>
               </div>
-              
-              <div className={`flex  w-full h-[90vh] justify-center items-center  `}>
+              <div className={`flex  w-full  md:hidden items-center mt-[7vh]`}>
+                  <ShockFaqs/>
+              </div>
+             
+              <div className={`hidden md:flex flex-row w-full h-auto    mt-[7vh] `}>
+                <div className={`flex w-1/2 border-r-gold1 border-r-2`}>
+                  <ShockFaqs/>
+                </div>
+                <div className={`flex w-1/2`}>
+                    <ShockCompare/>
+                </div>
+              </div>
+              {/* <div className={`flex  w-full h-auto  justify-center items-center  mt-[7vh] `}>
+                  
+              </div> */}
+              <div className={`flex  w-full  justify-center items-center  mt-[7vh]`}>
+                <YoutubeTestimonials/>
+              </div>
+              <div className={`flex  w-full  justify-center items-center `}>
                   <BookNow/>
               </div>
+              
+              
+              
+             
+              
+              
+              <div className={`flex flex-col w-full  mt-[7vh]`}>
+                  <TrustPilotSlider/>
+              </div>
+              
+              <div className={`flex  w-full  items-center mt-[7vh]`}>
+                  <ShockServices/>
+              </div>
+              <div className={`flex flex-col  justify-center  my-[7vh]`}>
+                    <div>
+                        <Media/>
+                    </div>
+                    
+                    <div className={`mt-[2vh]`}>
+                        <Awards/>
+                    </div>
+                </div>
+              
+
           </div>
         </div>
         <div className={`relative z-0 ` }>

@@ -21,13 +21,22 @@ import PshotSummary from '../components/PshotSummary'
 import PshotTreated from '../components/PshotTreated'
 import PshotVideo from '../components/PshotVideo'
 import FooterBook from '../components/FooterBook'
+import OconceptInfo from '../components/OconceptInfo'
+import { pshot_vid } from '../assets'
+import { useState } from 'react'
 
 const Pshot = () => {
+    const [videoEnded, setVideoEnded] = useState(false);
+    // var Speed = 50;
+    const handleVideoEnd = () => {
+        setVideoEnded(true);
+    };
+
   return (
     <div className={`bg- w-full`}>
-      {/* <div className={`hidden md:fixed fixed z-20 `}>
-            <video src={vampire_Pshot_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
-        </div> */}
+        <div className={`hidden md:flex fixed z-20 `}>
+            <video src={pshot_vid} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
+        </div>
 
         <div className={`fixed z-10 `}>
             <Navbar/>
@@ -64,6 +73,9 @@ const Pshot = () => {
               
               <div className={`flex  w-full items-center mt-[7vh]`}>
                   <PshotSummary/>
+              </div>
+              <div className={`flex  w-full items-center mt-[7vh]`}>
+                  <OconceptInfo/>
               </div>
               <div className={`flex  w-full md:hidden items-center mt-[7vh]`}>
                   <PshotCompare/>

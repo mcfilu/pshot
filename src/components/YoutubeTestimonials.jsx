@@ -226,7 +226,7 @@ const YoutubeTestimonials = () => {
         </Slider> */}
         <Slider {...settings}>
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>
-            <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_50px_2px_#744210]`}>
+            <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>
               <div className={`flex h-[40%] w-[100%]`}>
                 <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/zs9UUeMxCdA" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </div>
@@ -244,7 +244,7 @@ weeks.</p>
 
 
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>
-            <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_50px_2px_#744210]`}>
+            <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>
               <div className={`flex h-[40%] w-[100%]`}>
                 <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/DQu0ktFcbbw" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </div>
@@ -259,7 +259,7 @@ weeks.</p>
           </div>
 
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>
-            <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_50px_2px_#744210]`}>
+            <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>
               <div className={`flex h-[40%] w-[100%]`}>
                 <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/RJn1iAiFCpI" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </div>
@@ -274,7 +274,7 @@ weeks.</p>
           </div>
 
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>
-            <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_50px_2px_#744210]`}>
+            <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>
               <div className={`flex h-[40%] w-[100%]`}>
               <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/3rR17uynpWk" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </div>

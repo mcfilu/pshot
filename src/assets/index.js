@@ -102,6 +102,39 @@ import benefits1 from './benefits1.jpeg';
 import benefits2 from './benefits2.jpg';
 import pshot_whitelogo from './pshot_whitelogo.svg';
 import pshot_goldlogo from './pshot_goldlogo.svg';
+import orgasm from './orgasm.png';
+import shock_before1 from'./shock_before1.png';
+import shock_after1 from './shock_after1.png';
+import fat_cells from './fat_cells.mp4';
+import enla_before1 from './enla_before1.jpeg';
+import enla_after1 from './enla_after1.jpeg';
+import enla_before2 from './enla_before2.jpeg';
+import enla_after2 from './enla_after2.jpeg';
+import enla_before3 from './enla_before3.jpeg';
+import enla_after3 from './enla_after3.jpeg';
+import enla_before4 from './enla_before4.jpeg';
+import enla_after4 from './enla_after4.jpeg';
+import enla_before5 from './enla_before5.jpeg';
+import enla_after5 from './enla_after5.jpeg';
+import enla_before6 from './enla_before6.jpeg';
+import enla_after6 from './enla_after6.jpeg';
+import enla_before7 from './enla_before7.jpeg';
+import enla_after7 from './enla_after7.jpeg';
+import enla_before8 from './enla_before8.jpeg';
+import enla_after8 from './enla_after8.jpeg';
+import enla_before9 from './enla_before9.jpeg';
+import enla_after9 from './enla_after9.jpeg';
+import enla_before10 from './enla_before10.jpeg';
+import enla_after10 from './enla_after10.jpeg';
+import chair4 from './chair4.jpg';
+import o_concept_animation from './o-concept-animation.mp4';
+import o_concept1 from './o_concept1.jpg';
+import shockwave3 from './shockwave3.jpg';
+import ed from './ed.jpg';
+import renova from './renova.jpg';
+import diet from './diet.jpg';
+
+
 
 export {
     logo,
@@ -207,4 +240,35 @@ export {
     benefits2,
     pshot_goldlogo,
     pshot_whitelogo,
+    orgasm,
+    shock_after1,
+    shock_before1,
+    fat_cells,
+    enla_after1, 
+    enla_after10, 
+    enla_after2, 
+    enla_after3, 
+    enla_after4, 
+    enla_after5,
+    enla_after6, 
+    enla_after7,
+    enla_after8, 
+    enla_after9,
+    enla_before1,
+    enla_before10,
+    enla_before2,
+    enla_before3,
+    enla_before4,
+    enla_before5,
+    enla_before6,
+    enla_before7,
+    enla_before8,
+    enla_before9,
+    chair4,
+    o_concept_animation,
+    o_concept1,
+    shockwave3,
+    ed,
+    renova,
+    diet,
 };

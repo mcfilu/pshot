@@ -16,6 +16,8 @@ import Pshot from './pages/Pshot'
 import Chair from './pages/Chair'
 import Shock from './pages/Shock'
 import Book from './pages/Book'
+import Enla from './pages/Enla'
+import Oconcept from './pages/Oconcept'
 
 
 
@@ -42,6 +44,8 @@ const App = () => {
         <Route path="/dr-wakil" element={<DrWakil />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/book-now" element={<Book/>}/>
+        <Route path="/penis-enlargement" element={<Enla/>}/>
+        <Route path="/o-concept" element={<Oconcept/>}/>
       </Routes>
     </>
     

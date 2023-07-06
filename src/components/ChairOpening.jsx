@@ -1,25 +1,22 @@
 import React from 'react'
-import { PopupButton } from "react-calendly";
-import { BloodCells, sherif } from '../assets';
+// import { PopupButton } from "react-calendly";
+import {  sherif } from '../assets';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const ChairOpening = () => {
   return (
-    <div className={`flex w-11/12 flex-row bg-black bg-opacity-50 ml-[4%] mr-[4%] h-[60vh] rounded-[9px] p-[2vh] hover:bg-opacity-60 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
-        <div className={`w-[65%] h-[100%] bg-black bg-opacity-60 rounded-[9px] p-[1vh] flex flex-col items-left justify-between mr-[1.5vh]`}>
-            <div className={`flex flex-col w-[100%]  bg-opacity-40 rounded-[9px] items-center justify-center my-auto`}>
+    <div className={`flex w-full flex-row md:min-h-[55vh]  md:p-[2vh] md:pl-[0px]`}>
+        <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
+            {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
+            <img className={`w-full h-full object-cover `} src={sherif}></img>
+        </div>
+        <div className={`hidden md:flex w-[55%] h-[100%]  p-[2vh] flex flex-col items-left justify-between `}>
+            <div className={` flex flex-col w-[100%]  bg-opacity-40  items-center justify-center my-auto`}>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[1.3vw]`}></i>
-                <p className={`flex text-gold1 text-[2.7vh] text-center text-gold1`}>Do you and your partner feel like you miss out on good
-sex as a result of premature ejaculation (PE)? It’s nothing to be embarrassed about –
-around one in three men between the ages of 18 and 59 experience it as some point. You
-may be a long-term sufferer, with life-long PE or it may have only recently started
-happening, known as acquired PE. Either way, there are treatments that could help. One I
-recommend trying is the O Concept™ Chair.</p>
-                {/* <p className={`flex text-gold1 text-[2.7vh] text-center text-gold1 mt-[3vh]`}>The P-Shot® procedure works by using the body’s natural ability to heal and
-rejuvenate itself by injecting growth factor rich Platelet Rich Plasma (PRP) into the
-penis to stimulate a regenerative process.</p> */}
-                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[1.3vw]`}></i>
-                <p className={`flex text-gold text-[3vh] text-center text-gold1 mt-[6vh]`}>Dr. Sherif Wakil</p>
+                <p className={`flex text-white text-[2.5vh] text-left text-gold1 mt-[2vh] font-main`}>Are you and your partner feeling unsatisfied due to premature ejaculation (PE) affecting your sex life? You're not alone - approximately one in three men between the ages of 18 and 59 experience PE at some point. </p>
+                <p className={`flex text-white text-[2.5vh] text-left text-gold1 mt-[2vh] font-main`}>Whether you've been dealing with lifelong PE or it has recently become an issue (known as acquired PE), there are treatments available to help. I highly recommend considering the O Concept™ Chair as an effective option worth trying.</p>
+                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[5vh] md:text-[1.3vw] mt-[2vh]`}></i>
+                <p className={`flex  text-[4.5vh] text-center font-header text-gold1 mt-[5vh]`}>Dr. Sherif Wakil</p>
             </div>
             {/* <div className={`flex flex-col w-[100%]  bg-opacity-70 rounded-[9px] my-[1vh]`}>
 
@@ -36,9 +33,19 @@ penis to stimulate a regenerative process.</p> */}
                 color="#ffffff"
                 /></p> */}
         </div>
-        <div className={`w-2/5 h-[100%] flex items-center`}>
-            {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
-            <img className={`w-full h-full object-cover rounded-[9px]`} src={sherif}></img>
+        
+
+
+        <div className={`md:hidden flex flex-col w-full items-center`}>
+        <p className={`flex text-[4.5vh] font-header text-gold1 mt-[2vh]`}>Dr. Sherif Wakil</p>
+            <img className={`w-full h-full object-cover `} src={sherif}></img>
+            
+            <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
+            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>The Vampire Breast Lift™ represents an exciting and groundbreaking innovation in the realm of non-surgical breast enhancements. This procedure, as intriguing as its name implies, utilizes your body's natural growth factors to subtly augment and rejuvenate the appearance of the breasts, improving their shape and volume without the need for traditional surgery or implants.</p>
+            <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
+            
+            
+
         </div>
        
         

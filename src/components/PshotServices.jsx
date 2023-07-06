@@ -18,9 +18,9 @@ const PshotServices = () => {
     
         
         
-        <div  onMouseEnter={() => setHove1((prev) => !prev)} onMouseLeave={() => setHove1((prev) => !prev)} className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_50px_5px_#744210]`}>
-        <NavLink to={`/breast-augmentation`}>
-            <div  className={`relative flex w-full h-[40vh] overflow-hidden`}>
+        <div  onMouseEnter={() => setHove1((prev) => !prev)} onMouseLeave={() => setHove1((prev) => !prev)} className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
+        <NavLink to={`/o-concept-chair`}>
+            <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover ${hov1 ? 'scale-125' : ''}`} src={chair3}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>O-Concept Chair</h1>
@@ -38,9 +38,9 @@ const PshotServices = () => {
         </div>
         
     
-        <div onMouseEnter={() => setHove2((prev) => !prev)} onMouseLeave={() => setHove2((prev) => !prev)} className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_50px_5px_#744210] `}>
-        <NavLink to={`/breast-fat-enlargement`}>
-        <div className={`relative flex w-full h-[40vh] overflow-hidden `}>
+        <div onMouseEnter={() => setHove2((prev) => !prev)} onMouseLeave={() => setHove2((prev) => !prev)} className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
+        <NavLink to={`/o-concept-shockwave`}>
+        <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black `}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 ${hov2 ? 'scale-125' : ''}`} src={shockwave1}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>O-Concept Shockwave</h1>
@@ -58,9 +58,9 @@ const PshotServices = () => {
         </div>
         
     
-        <div onMouseEnter={() => setHove3((prev) => !prev)} onMouseLeave={() => setHove3((prev) => !prev)} className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_50px_5px_#744210] `}>
-        <NavLink to={`/breast-reduction`}>
-        <div className={`relative flex w-full h-[40vh] overflow-hidden`}>
+        <div onMouseEnter={() => setHove3((prev) => !prev)} onMouseLeave={() => setHove3((prev) => !prev)} className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
+        <NavLink to={`/penis-enlargement`}>
+        <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={` flex w-full h-full  ease-in-out duration-500 object-cover ${hov3 ? 'scale-125' : ''}`} src={oshot1}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Penis</h1>

@@ -44,7 +44,7 @@ const Navbar = () => {
             {navLinks.map((nav,index) => (
                 <li
                 key = {nav.id}
-                className={`hover-underline-animation flex font-main font-normal cursor-pointer ${color ? 'text-[1.3vw]' : 'text-[1.4vw]'} ease-in-out duration-500 mx-[1.7vh] py-[1.7vh] text-white ${active_path=== nav.link ? 'text-gold1' : ''} hover:text-gold1 `}   
+                className={`hover-underline-animation flex font-main font-normal cursor-pointer ${color ? 'text-[1.3vw]' : 'text-[1.4vw]'} ease-in-out duration-500 mx-[1.7vh] py-[1.7vh]  ${active_path=== nav.link ? 'text-gold1' : 'text-white'} hover:text-gold1 `}   
                 >
                 {/* <a href={`#${nav.id}`}> {nav.title} </a> */}
                 <NavLink className={`flex items-center`} to={`${nav.link}`}>{nav.title}</NavLink>

@@ -8,8 +8,14 @@ export const navLinks = [
     
     {
         id: 'pshot',
-        title: 'P-Shot',
+        title: 'P-Shot™',
         link: "/",
+    },
+
+    {
+        id: 'oconcept',
+        title: 'O-Concept™',
+        link: "/o-concept",
     },
    
     {
