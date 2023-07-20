@@ -69,7 +69,7 @@ penis to stimulate a regenerative process.</p>
                 </div>
             </div>
             <div className={` flex flex-col w-full  pt-[2vh] pb-[2.5vh] px-[1vh] md:px-[2vh]`}>
-                <p className={`flex text-black text-[2.1vh] text-justify font-main`}>Breast reduction, or mammoplasty, is a surgical procedure that reduces the size of the female breast. It provides relief for individuals with physical discomfort and emotional challenges caused by large and heavy breasts, improving their overall well-being of those seeking relief.</p>
+                <p className={`flex text-black text-[2.1vh] text-justify font-main`}>Penis enlargement with fat, also known as penile augmentation or phalloplasty, is a cosmetic procedure that involves harvesting fat from other parts of the body, such as the abdomen, thighs, or buttocks, and transferring it into the penile area. This innovative treatment aims to increase the size and shape of the natural penis.</p>
                 
             </div>
             {/* <NavLink to={`/breast-reduction`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink> */}

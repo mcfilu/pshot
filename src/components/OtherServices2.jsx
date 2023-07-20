@@ -103,7 +103,7 @@ const OtherServices2 = () => {
             </div>
 
             <div onMouseEnter={() => setHove2((prev) => !prev)} onMouseLeave={() => setHove2((prev) => !prev)} className={`relative flex flex-col  bg-gold1  w-[100%] md:w-[29%]  shadow-[0px_0px_50px_2px_#744210] hover:ease-in-out duration-500`}>
-            <a href="https://www.vampirebreastlift.co.uk">
+            <a href="https://www.drswclinics.co.uk">
                 <div className={`relative flex w-full h-[40vh] overflow-hidden`}>
                     <img className={`flex w-full h-full  ease-in-out duration-500 object-cover ${hov2 ? 'scale-125' : ''}`} src={boobs1}></img>
                     <div className={`absolute w-full top-[10vh] left-[2vw] `}>

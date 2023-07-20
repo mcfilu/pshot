@@ -17,7 +17,7 @@ const Footer = () => {
         {/* Contact Information */}
         <div className="text-[0.9vw] flex flex-col items-center ">
             <h1 className={`text-[4vh] text-gold1 md:text-[3vh] text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] font-header`}>Contact Us</h1>
-          <p className="mb-[0.9vh] text-[2vh] md:text-[1.1vw] font-main"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@vampirebreastlift.co.uk'><i className="fas fa-envelope mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Info@vampirebreastlift.co.uk</a></p>
+          <p className="mb-[0.9vh] text-[2vh] md:text-[1.1vw] font-main"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@drswclinics.co.uk'><i className="fas fa-envelope mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Info@drswclinics.co.uk</a></p>
           <p className="mb-[0.9vh] text-[2vh] md:text-[1.1vw] font-main"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 3006 8459"><i className="fas fa-phone mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>+44 (0)20 3006 8459 </a></p>
           <NavLink to={`/book-now`}><button className={`bg-black border-gold1 border-2 hover:bg-white text-gold1 text-[3vh] md:text-[1.2vw] md:w-[8vw] font-main`}>Book Now</button></NavLink>
         </div>
@@ -43,9 +43,9 @@ const Footer = () => {
         <div className="text-[0.9vw] flex flex-col">
             <h1 className={`text-[4vh] md:text-[3vh] text-gold1 text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] font-header`}>Follow Us</h1>
           <div className={`flex flex-row md:flex-col mx-auto text-[2vh] md:text-[1.1vw] font-main`}>
-            <p className="mb-[0.9vh] mr-[1.5vh] md:mr-[0px]"><a href="#" className={`hover:text-gold1 flex items-center`}><i className={`fab fa-facebook mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]`}></i>Facebook</a></p>
-            <p className="mb-[0.9vh]  mr-[1.5vh] md:mr-[0px]"><a href="#" className={`hover:text-gold1 flex items-center`}><i className="fab fa-twitter mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Twitter</a></p>
-            <p className="mb-[0.9vh]  mr-[1.5vh] md:mr-[0px]"><a href="#" className={`hover:text-gold1 flex items-center`}><i className="fab fa-instagram mr-[1.1vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Instagram</a></p>
+            <p className="mb-[0.9vh] mr-[1.5vh] md:mr-[0px]"><a href="https://www.facebook.com/drswclinics" className={`hover:text-gold1 flex items-center`}><i className={`fab fa-facebook mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]`}></i>Facebook</a></p>
+            <p className="mb-[0.9vh]  mr-[1.5vh] md:mr-[0px]"><a href="https://www.twitter.com/DrSWclinics" className={`hover:text-gold1 flex items-center`}><i className="fab fa-twitter mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Twitter</a></p>
+            <p className="mb-[0.9vh]  mr-[1.5vh] md:mr-[0px]"><a href="https://www.instagram.com/drswclinics/" className={`hover:text-gold1 flex items-center`}><i className="fab fa-instagram mr-[1.1vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Instagram</a></p>
           </div>
           
         </div>

@@ -48,7 +48,7 @@ const PshotServices = () => {
                 </div>
             </div>
             <div className={`relative items-center flex flex-col w-full  py-[1vh] px-[2vh]`}>
-                <p className={`flex text-black text-[2.1vh] text-justify font-main`}>Breast enlargement with fat is a cosmetic procedure that harvests fat from other parts of your body, typically the abdomen, hips, thighs, or buttocks and transfers it into the breast area where it can be used to increase the size and shape of the natural breast.</p>
+                <p className={`flex text-black text-[2.1vh] text-justify font-main`}>The O-Concept Shockwave for him is an advanced procedure designed to address various concerns related to male sexual wellness. This non-invasive treatment utilizes shockwave technology to stimulate blood flow and tissue regeneration in the penile area.</p>
                 
                 
             </div>
