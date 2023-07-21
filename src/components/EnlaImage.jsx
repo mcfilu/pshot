@@ -10,8 +10,8 @@ const PshotImage = () => {
                     {/* <h1 className={`text-gold1 text-[8vh] font-header mb-[3vh] mt-20 text-left`}>Vampire Breast Lift™ </h1> */}
                     <h1 className={`text-gold1 text-[8vh] font-header  mt-[3vh] text-left`}>Penis </h1>
                 <h1 className={`text-gold1 text-[8vh] font-header mb-[1vh] text-left`}>Enlargement</h1>
-                        <h1 className={`text-white text-[2.5vh] font-main mb-[1vh] text-left  w-full md:w-[75%]`}>Revitalize your sexual vitality and reclaim your confidence with penis augmentation using soft tissue filler. Experience a significant improvement in sexual performance, heightened sensation, and a noticeable increase in penis size as the transformative power of soft tissue filler unlocks your full potential. </h1>
-                        <a className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
+                        <h1 className={`text-white text-[2.2vh] md:text-[2.5vh] font-main mb-[1vh] text-left  w-full md:w-[75%]`}>Revitalize your sexual vitality and reclaim your confidence with penis augmentation using soft tissue filler. Experience a significant improvement in sexual performance, heightened sensation, and a noticeable increase in penis size as the transformative power of soft tissue filler unlocks your full potential. </h1>
+                        <a href="#enla_opening" className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
                        
                     {/* </div> */}
         </div>

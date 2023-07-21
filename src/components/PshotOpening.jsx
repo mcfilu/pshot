@@ -41,8 +41,8 @@ const PshotOpening = () => {
             <img className={`w-full h-full object-cover `} src={sherif}></img>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>The P-Shot® is an integral component of the revolutionary therapy known as The O Concept™. This comprehensive approach encompasses cutting-edge technology, innovative treatments, and natural supplements aimed at enhancing sexual well-being.</p>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>Through the utilization of Platelet Rich Plasma (PRP), the P-Shot® procedure harnesses the inherent healing and rejuvenating capabilities of the body. By injecting PRP, which is abundant in growth factors, into the penis, a regenerative process is initiated, stimulating the body's natural ability to heal and renew itself.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>The P-Shot® is an integral component of the revolutionary therapy known as The O Concept™. This comprehensive approach encompasses cutting-edge technology, innovative treatments, and natural supplements aimed at enhancing sexual well-being.</p>
+            <p className={`flex text-white text-[2.2vh] text-left mt-[2vh] ml-[1vh] text-gold1 `}>Through the utilization of Platelet Rich Plasma (PRP), the P-Shot® procedure harnesses the inherent healing and rejuvenating capabilities of the body. By injecting PRP, which is abundant in growth factors, into the penis, a regenerative process is initiated, stimulating the body's natural ability to heal and renew itself.</p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
             

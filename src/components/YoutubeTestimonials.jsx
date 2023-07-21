@@ -76,7 +76,7 @@
 //               </div>
             
 //               <div className={`flex flex-col items-center w-[100%] h-[40%] mt-[3vh]`}>
-//                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>
+//                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
 //                 <p className={`text-white text-center text-[1.5vh]`}>Dr. Wakil revolutionised my sexual life and relationship with my wife in just 8
 // weeks.</p>
 //                 <h1 className={`text-gold1 text-[2.5vh] text-center mt-[2vh]`}>HAROLD</h1>
@@ -92,7 +92,7 @@
 //               </div>
             
 //               <div className={`flex flex-col items-center w-[100%] h-[40%] mt-[3vh]`}>
-//                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>
+//                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
 //                 <p className={`text-white text-center text-[1.5vh]`}> The O Concept™ is the best solution out there</p>
 //                 <h1 className={`text-gold1 text-[2.5vh] text-center mt-[2vh]`}>DAVE</h1>
 //                 <h3 className={`text-white text-[1.5vh] text-center`}>29 Years Old, UK</h3>
@@ -107,7 +107,7 @@
 //               </div>
             
 //               <div className={`flex flex-col items-center w-[100%] h-[40%] mt-[3vh]`}>
-//                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>
+//                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
 //                 <p className={`text-white text-center text-[1.5vh]`}>Wow, what can I say? Fantastic!</p>
 //                 <h1 className={`text-gold1 text-[2.5vh] text-center mt-[2vh]`}>KARIM</h1>
 //                 <h3 className={`text-white text-[1.5vh] text-center`}>62 Years Old, UK</h3>
@@ -122,7 +122,7 @@
 //               </div>
             
 //               <div className={`flex flex-col items-center w-[100%] h-[40%] mt-[3vh]`}>
-//                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>
+//                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
 //                 <p className={`text-white text-center text-[1.5vh]`}>My sexual life is so much better</p>
 //                 <h1 className={`text-gold1 text-[2.5vh] text-center mt-[2vh]`}>MIKE</h1>
 //                 <h3 className={`text-white text-[1.5vh] text-center`}>57 Years Old, UK</h3>
@@ -232,7 +232,7 @@ const YoutubeTestimonials = () => {
               </div>
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
-                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>
+                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>Dr. Wakil revolutionised my sexual life and relationship with my wife in just 8
 weeks.</p>
                 <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>HAROLD</h1>
@@ -250,7 +250,7 @@ weeks.</p>
               </div>
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
-                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>
+                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>The O Concept™ is the best solution out there</p>
                 <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>DAVE</h1>
                 <h3 className={`text-white text-[1.9vh] text-center font-main`}>29 Years Old, UK</h3>
@@ -265,7 +265,7 @@ weeks.</p>
               </div>
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
-                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>
+                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>Wow, what can I say? Fantastic! </p>
                 <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>KARIM</h1>
                 <h3 className={`text-white text-[1.9vh] text-center font-main`}>62 Years Old, UK</h3>
@@ -280,7 +280,7 @@ weeks.</p>
               </div>
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
-                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>
+                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>My sexual life is so much better</p>
                 <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>MIKE</h1>
                 <h3 className={`text-white text-[1.9vh] text-center font-main`}>57 Years Old, UK</h3>

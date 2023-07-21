@@ -41,7 +41,8 @@ const ChairOpening = () => {
             <img className={`w-full h-full object-cover `} src={sherif}></img>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>The Vampire Breast Lift™ represents an exciting and groundbreaking innovation in the realm of non-surgical breast enhancements. This procedure, as intriguing as its name implies, utilizes your body's natural growth factors to subtly augment and rejuvenate the appearance of the breasts, improving their shape and volume without the need for traditional surgery or implants.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>Are you and your partner feeling unsatisfied due to premature ejaculation (PE) affecting your sex life? You're not alone - approximately one in three men between the ages of 18 and 59 experience PE at some point.</p>
+            <p className={`flex text-white text-[2.2vh] text-left mt-[2vh] ml-[1vh] text-gold1 `}>Whether you've been dealing with lifelong PE or it has recently become an issue (known as acquired PE), there are treatments available to help. I highly recommend considering the O Concept™ Chair as an effective option worth trying.</p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
             

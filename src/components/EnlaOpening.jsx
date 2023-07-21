@@ -41,8 +41,8 @@ const PshotOpening = () => {
             <img className={`w-full h-full object-cover `} src={sherif}></img>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>For numerous men, the thickness or girth of their manhood truly matters. In fact, 45% of men report dissatisfaction with their penis size. This discontent can affect confidence and hinder the ability to form lasting relationships. </p>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>Fortunately, there is a safe and effective solution using hyaluronic acid-based soft tissue fillers to augment the penis, providing the desired enhancement. </p>
+            <p className={`flex text-white text-[2.2vh] text-left text-gold1 ml-[1vh]`}>For numerous men, the thickness or girth of their manhood truly matters. In fact, 45% of men report dissatisfaction with their penis size. This discontent can affect confidence and hinder the ability to form lasting relationships. </p>
+            <p className={`flex text-white text-[2.2vh] text-left mt-[2vh] text-gold1 ml-[1vh]`}>Fortunately, there is a safe and effective solution using hyaluronic acid-based soft tissue fillers to augment the penis, providing the desired enhancement. </p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
             

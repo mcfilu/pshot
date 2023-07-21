@@ -41,8 +41,8 @@ const ShockOpening = () => {
             <img className={`w-full h-full object-cover `} src={sherif}></img>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>Erectile dysfunction is a common issue that affects many men, causing frustration and embarrassment. But you're not alone. Approximately 1 in 3 men experience it. The good news is, there are solutions to help you regain confidence and sexual well-being.</p>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>Discover the transformative benefits of the O Concept Shockwave and take control of your sexual health. Embrace a more fulfilling intimate life and find hope for a brighter future.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>Erectile dysfunction is a common issue that affects many men, causing frustration and embarrassment. But you're not alone. Approximately 1 in 3 men experience it. The good news is, there are solutions to help you regain confidence and sexual well-being.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] mt-[2vh] text-gold1 `}>Discover the transformative benefits of the O Concept Shockwave and take control of your sexual health. Embrace a more fulfilling intimate life and find hope for a brighter future.</p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
             

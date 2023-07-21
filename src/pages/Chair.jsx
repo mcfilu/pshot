@@ -43,7 +43,7 @@ const Chair = () => {
         </div>
         <div className="flex flex-col bg-black" >
         <div className={`flex flex-col justify-center mx-auto w-full`}>
-              <div className={`flex  w-full  justify-center mt-20`}>
+              <div id="chair_opening" className={`flex  w-full  justify-center mt-20`}>
                 <ChairOpening/>
               </div>
               <div className={`flex  w-full  items-center justify-center mt-[7vh]`}>

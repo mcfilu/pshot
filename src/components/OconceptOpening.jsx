@@ -48,12 +48,12 @@ selection of Cutting Edge treatments to ensure the  best possible results are ac
             <img className={`w-full h-full object-cover `} src={sherif}></img>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>As men grow older they could suffer from mild to severe erection problems as a
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>As men grow older they could suffer from mild to severe erection problems as a
 consequence of the natural ageing process or other medical conditions. This unique
 treatment combination is not just for patients with Erectile Dysfunction but it is also
 for men looking to enhance or increase the firmness of their erection, help with
 premature ejaculations and improve their sensation.</p>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>In addition to helping in
+            <p className={`flex text-white text-[2.2vh] mt-[2vh] ml-[1vh] text-left text-gold1 `}>In addition to helping in
 increasing the length and girth of the penis, giving a man more confidence and an
 improved sexual experience the programme will be carefully tailored from a
 selection of Cutting Edge treatments to ensure the  best possible results are achieved.</p>
