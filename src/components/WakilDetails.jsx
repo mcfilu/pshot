@@ -39,7 +39,7 @@ Dr. Sherif Wakil is a highly accomplished and respected medical professional, ho
         </div>
         <div className={`md:hidden flex flex-col w-full `}>
             <p className={`flex text-gold text-[5vh] text-center text-gold1 font-header`}>World Renown Specialist</p>
-            <video src={augmentation_vid} autoPlay loop muted className={`object-cover h-[100%]`}></video>
+            <video src={augmentation_vid} autoPlay loop muted playsInline className={`object-cover h-[100%]`}></video>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto p-[1vh]`}>
             
                 

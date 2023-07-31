@@ -66,14 +66,15 @@ const Chair = () => {
               <div className={`flex  w-full items-center mt-[7vh]`}>
                   <ChairSummary/>
               </div>
-              <div className={`flex  w-full items-center mt-[7vh]`}>
-                  <OconceptInfo/>
-              </div>
+              
               {/* <div className={`flex  w-full md:hidden items-center mt-[7vh]`}>
                   <ChairCompare/>
               </div> */}
               <div className={`flex  w-full md:w-[70%] md:mx-auto items-center mt-[7vh]`}>
                   <ChairFaqs/>
+              </div>
+              <div className={`flex  w-full items-center mt-[7vh]`}>
+                  <OconceptInfo/>
               </div>
              
               {/* <div className={`hidden md:flex flex-row w-full h-auto    mt-[7vh] `}>
