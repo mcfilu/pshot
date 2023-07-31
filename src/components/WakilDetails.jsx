@@ -1,6 +1,11 @@
 import React from 'react'
 import { augmentation_vid, } from '../assets'
 import { useRef, useEffect } from 'react';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+// import { boobs1, boobs2, boobs3 } from '../assets';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const WakilDetails = () => {
     const videoRef = useRef(null);
