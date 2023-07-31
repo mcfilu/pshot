@@ -15,6 +15,30 @@ import WakilImage from '../components/WakilImage'
 // import Alberto from '../components/Alberto'
 // import Davood from '../components/Davood'
 
+
+
+
+import ClinicReviews from '../components/ClinicReviews'
+import YoutubeTestimonials from '../components/YoutubeTestimonials'
+
+import TrustPilotSlider from '../components/TrustPilotSlider'
+
+
+import PshotBenefits from '../components/PshotBenefits'
+import PshotCompare from '../components/PshotCompare'
+import PshotDetails from '../components/PshotDetails'
+import PshotFaqs from '../components/PshotFaqs'
+import PshotImage from '../components/PshotImage'
+import PshotOpening from '../components/PshotOpening'
+import PshotServices from '../components/PshotServices'
+import PshotSummary from '../components/PshotSummary'
+import PshotTreated from '../components/PshotTreated'
+import PshotVideo from '../components/PshotVideo'
+import FooterBook from '../components/FooterBook'
+import OconceptInfo from '../components/OconceptInfo'
+import { pshot_vid } from '../assets'
+import { useState } from 'react'
+
 const DrWakil = () => {
   return (
     <div className={`bg-primary w-full`}>
