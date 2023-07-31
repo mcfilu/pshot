@@ -3,8 +3,18 @@ import React from 'react'
 import { o_concept_animation } from '../assets';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { NavLink } from 'react-router-dom';
-
+import { useRef, useEffect, useState } from 'react';
 const OconceptDetails = () => {
+    const videoRef = useRef(null);
+
+    useEffect(() => {
+      // On mount, set the muted attribute programmatically
+      if (videoRef.current) {
+        videoRef.current.muted = true;
+        videoRef.current.defaultMuted=true;
+      }
+    }, []);
+
   return (
     <div className={` flex w-full flex-row     `}>
          
@@ -49,16 +59,17 @@ unique protocols designed for each patient’s condition.</p>
         </div>
 
         <div className={`hidden md:flex w-[40%] h-[100%] flex items-center`}>
-            <video src={o_concept_animation} autoPlay loop muted className={` object-contain w-[100%] h-[100%]`}></video>
+            <video  src={o_concept_animation} autoPlay muted loop className={` object-contain w-[100%] h-[100%]`}></video>
             {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
             </div>
         
 
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
-            <div
-                dangerouslySetInnerHTML={{__html:<video src={o_concept_animation} autoPlay loop muted playsInline className={`w-[100%]`}></video>}}
-            />
+        
+             <video ref={videoRef} src={o_concept_animation} autoPlay loop muted playsInline className={`w-[100%]`}></video>
+            
+
             
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>This ground-breaking concept has been created by renowned Dr Sherif Wakil who is
 a pioneer in the field of “Sexual Aesthetics” a terminology he devised himself. He has
