@@ -1,7 +1,18 @@
 import React from 'react'
 import { augmentation_vid, } from '../assets'
+import { useRef, useEffect } from 'react';
 
 const WakilDetails = () => {
+    const videoRef = useRef(null);
+
+    useEffect(() => {
+      // On mount, set the muted attribute programmatically
+      if (videoRef.current) {
+        videoRef.current.muted = true;
+        videoRef.current.defaultMuted=true;
+      }
+    }, []);
+
   return (
     <div className={`flex w-full flex-row  md:p-[2vh] md:pl-0`}>
         <div className={`hidden md:flex w-[40%] flex items-center`}>
@@ -39,7 +50,7 @@ Dr. Sherif Wakil is a highly accomplished and respected medical professional, ho
         </div>
         <div className={`md:hidden flex flex-col w-full `}>
             <p className={`flex text-gold text-[5vh] text-center text-gold1 font-header`}>World Renown Specialist</p>
-            <video src={augmentation_vid} autoPlay loop muted playsInline className={`w-[100%]`}></video>
+            <video ref={videoRef} src={augmentation_vid} autoPlay loop muted playsInline className={`w-[100%]`}></video>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto p-[1vh]`}>
             
                 
