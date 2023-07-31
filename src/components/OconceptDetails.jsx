@@ -67,7 +67,8 @@ unique protocols designed for each patient’s condition.</p>
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
         
-             <video ref={videoRef} src={o_concept_animation} autoPlay loop muted playsInline webkit-playsInline className={`w-[100%]`}></video>
+             {/* <video ref={videoRef} src={o_concept_animation} autoPlay loop muted playsInline webkit-playsInline className={`w-[100%]`}></video> */}
+             <video src={o_concept_animation} autoPlay loop muted playsInline className={`w-[100%]`}></video>
             
 
             
