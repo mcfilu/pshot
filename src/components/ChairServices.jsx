@@ -60,7 +60,7 @@ penis to stimulate a regenerative process.</p>
         
     
         <div onMouseEnter={() => setHove3((prev) => !prev)} onMouseLeave={() => setHove3((prev) => !prev)} className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
-        <NavLink to={`/peni-enlargement`}>
+        <NavLink to={`/penis-enlargement`}>
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={` flex w-full h-full  ease-in-out duration-500 object-cover ${hov3 ? 'scale-125' : ''}`} src={oshot1}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>

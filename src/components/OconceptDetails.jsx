@@ -56,7 +56,7 @@ unique protocols designed for each patient’s condition.</p>
 
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
-            <video src={o_concept_animation} autoPlay loop muted playsInline className={`w-[100%]`}></video>
+            <video src={o_concept_animation} autoPlay loop muted playsInline webkit-playsinline={true} className={`w-[100%]`}></video>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>This ground-breaking concept has been created by renowned Dr Sherif Wakil who is
 a pioneer in the field of “Sexual Aesthetics” a terminology he devised himself. He has
 created a unique combination of treatments tailor made for each patient to treat Male
