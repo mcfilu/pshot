@@ -22,7 +22,7 @@ const OconceptServices = () => {
         
         
         <div  onMouseEnter={() => setHove1((prev) => !prev)} onMouseLeave={() => setHove1((prev) => !prev)} className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
-        <NavLink to={`/o-concept-chair`}>
+        <NavLink to={`/o-concept-chair-in-london`}>
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover ${hov1 ? 'scale-125' : ''}`} src={chair3}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -42,7 +42,7 @@ const OconceptServices = () => {
         
     
         <div onMouseEnter={() => setHove2((prev) => !prev)} onMouseLeave={() => setHove2((prev) => !prev)} className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
-        <NavLink to={`/o-concept-shockwave`}>
+        <NavLink to={`/shockwave-therapy-in-london`}>
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 ${hov2 ? 'scale-125' : ''}`} src={shockwave1}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -91,7 +91,7 @@ penis to stimulate a regenerative process.</p>
         
         
         <div  onMouseEnter={() => setHove4((prev) => !prev)} onMouseLeave={() => setHove4((prev) => !prev)} className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
-        <NavLink to={`/o-concept-chair`}>
+        <NavLink to={`/o-concept-chair-in-london`}>
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover ${hov4 ? 'scale-125' : ''}`} src={ed}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -113,7 +113,7 @@ treatment. They are pain free using a strong local anaesthesia and treatment t
         
     
         <div onMouseEnter={() => setHove5((prev) => !prev)} onMouseLeave={() => setHove5((prev) => !prev)} className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
-        <NavLink to={`/o-concept-shockwave`}>
+        <NavLink to={`/shockwave-therapy-in-london`}>
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 ${hov5 ? 'scale-125' : ''}`} src={renova}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>

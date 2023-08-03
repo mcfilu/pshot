@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import { HelmetProvider } from 'react-helmet-async'
 
 import { Routes, Route } from 'react-router-dom'
 // import Home from './pages/Home'
@@ -29,6 +30,7 @@ const App = () => {
 
   return (
     <>
+    <HelmetProvider>
       <Routes>
         {/* <Route path="/" element={<Home />} />
         <Route path="/vampire-breastlift" element={<VampireBreastLift />} />
@@ -39,14 +41,15 @@ const App = () => {
         <Route path="/breast-fat-enlargement" element={<Fat />} />
         <Route path="/breast-reduction" element={<Reduction />} /> */}
         <Route path="/" element={<Pshot />} />
-        <Route path="/o-concept-chair" element={<Chair />} />
-        <Route path="/o-concept-shockwave" element={<Shock />} />
+        <Route path="/o-concept-chair-in-london" element={<Chair />} />
+        <Route path="/shockwave-therapy-in-london" element={<Shock />} />
         <Route path="/dr-wakil" element={<DrWakil />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact-us" element={<Contact />} />
         <Route path="/book-now" element={<Book/>}/>
-        <Route path="/penis-enlargement" element={<Enla/>}/>
-        <Route path="/o-concept" element={<Oconcept/>}/>
+        <Route path="/penis-enlargement-in-london" element={<Enla/>}/>
+        <Route path="/o-concept-treatment-in-london" element={<Oconcept/>}/>
       </Routes>
+      </HelmetProvider>
     </>
     
   );

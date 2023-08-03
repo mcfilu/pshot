@@ -20,10 +20,15 @@ import EnlaSummary from '../components/EnlaSummary'
 import EnlaTreated from '../components/EnlaTreated'
 import EnlaVideo from '../components/EnlaVideo'
 import FooterBook from '../components/FooterBook'
+import { Helmet } from 'react-helmet-async'
 
 const Enla = () => {
   return (
     <div className={`bg- w-full`}>
+      <Helmet>
+            <title>Effective Penis Enlargement in London | P-Shot</title>
+            <meta name='description' content="Get the best penis enlargement in London from Dr. Sherif Wakil. Trusted expertise for ultimate results. Call +44 (0)20 3006 8459 for a free consultation." />
+        </Helmet>
       {/* <div className={`hidden md:fixed fixed z-20 `}>
             <video src={vampire_Enla_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div> */}

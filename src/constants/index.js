@@ -15,7 +15,7 @@ export const navLinks = [
     {
         id: 'oconcept',
         title: 'O-Concept™',
-        link: "/o-concept",
+        link: "/o-concept-treatment-in-london",
     },
    
     {
@@ -31,6 +31,25 @@ export const navLinks = [
     {
         id: 'contact',
         title: 'Contact',
-        link: "/contact",
+        link: "/contact-us",
+    },
+]
+
+export const otherLinks = [
+
+    {
+        id: 'shockwave-therapy',
+        title: 'Shockwave Therapy',
+        link: '/shockwave-therapy-in-london',
+    },
+    {
+        id: 'o-concept-chair',
+        title: 'O Concept Chair',
+        link: '/o-concept-chair-in-london',
+    },
+    {
+        id: 'penis-enlargement',
+        title: 'Penis Enlargement',
+        link: '/penis-enlargement-in-london',
     },
 ]

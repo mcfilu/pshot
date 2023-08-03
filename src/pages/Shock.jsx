@@ -22,10 +22,15 @@ import ShockTreated from '../components/ShockTreated'
 import ShockVideo from '../components/ShockVideo'
 import FooterBook from '../components/FooterBook'
 import OconceptInfo from '../components/OconceptInfo'
+import { Helmet } from 'react-helmet-async'
 
 const Shock = () => {
   return (
     <div className={`bg- w-full`}>
+      <Helmet>
+            <title>Revolutionary Shockwave Therapy in London | P-Shot</title>
+            <meta name='description' content="Experience the best Shockwave Therapy in London with Dr. Sherif Wakil. Get effective pain relief and improved mobility. Call +44 (0)20 3006 8459." />
+        </Helmet>
       {/* <div className={`hidden md:fixed fixed z-20 `}>
             <video src={vampire_Shock_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div> */}

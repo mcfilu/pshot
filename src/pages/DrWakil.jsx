@@ -14,6 +14,7 @@ import WakilClinic from '../components/WakilClinic'
 import WakilImage from '../components/WakilImage'
 // import Alberto from '../components/Alberto'
 // import Davood from '../components/Davood'
+import { Helmet } from 'react-helmet-async'
 
 
 
@@ -42,6 +43,10 @@ import { useState } from 'react'
 const DrWakil = () => {
   return (
     <div className={`bg-primary w-full`}>
+        <Helmet>
+            <title>Dr. Sherif Wakil | Best Sexual Aesthetics Doctor in UK</title>
+            <meta name='description' content="Dr. Sherif Wakil and his team of Sexual Aesthetics Doctor are committed to providing you with the highest quality of ED . Call us today at +44 (0)20 3006 8459." />
+        </Helmet>
 
         <div className={`fixed z-10 `}>
             <Navbar/>

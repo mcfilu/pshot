@@ -22,10 +22,15 @@ import ChairTreated from '../components/ChairTreated'
 import ChairVideo from '../components/ChairVideo'
 import FooterBook from '../components/FooterBook'
 import OconceptInfo from '../components/OconceptInfo'
+import { Helmet } from 'react-helmet-async'
 
 const Chair = () => {
   return (
     <div className={`bg- w-full`}>
+      <Helmet>
+            <title>Discover the O Concept Chair in London | P-Shot</title>
+            <meta name='description' content="Discover the ultimate O Concept Chair experience in London with Dr. Sherif Wakil. To get the best O Concept Treatment, call +44 (0)20 3006 8459." />
+        </Helmet>
       {/* <div className={`hidden md:fixed fixed z-20 `}>
             <video src={vampire_Chair_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div> */}

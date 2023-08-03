@@ -9,10 +9,15 @@ import Awards from '../components/Awards'
 
 import WakilClinic from '../components/WakilClinic'
 import FooterBook from '../components/FooterBook'
+import { Helmet } from 'react-helmet-async'
 
 const Contact = () => {
   return (
     <div className={`bg-primary w-full`}>
+        <Helmet>
+            <title>Contact P-Shot | Sexual Aesthetics Doctor in UK</title>
+            <meta name='description' content="Enhance sexual aesthetics with P-Shot! Contact our UK-based doctor for sexual treatments. Reclaim your confidence and satisfaction today. Call +44 (0)20 3006 8459." />
+        </Helmet>
 
         <div className={`fixed z-10 `}>
             <Navbar/>
