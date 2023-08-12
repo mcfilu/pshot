@@ -1,6 +1,6 @@
 import React from 'react'
 // import { PopupButton } from "react-calendly";
-import {  sherif } from '../assets';
+import {  sherif_new } from '../assets';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const PshotOpening = () => {
@@ -8,7 +8,7 @@ const PshotOpening = () => {
     <div className={`flex w-full flex-row md:min-h-[55vh]  md:p-[2vh] md:pl-[0px]`}>
         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
             {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
-            <img className={`w-full h-full object-cover `} src={sherif}></img>
+            <img className={`w-full h-full object-cover `} src={sherif_new}></img>
         </div>
         <div className={`hidden md:flex w-[55%] h-[100%]  p-[2vh] flex flex-col items-left justify-between `}>
             <div className={` flex flex-col w-[100%]  bg-opacity-40  items-center justify-center my-auto`}>
@@ -38,7 +38,7 @@ const PshotOpening = () => {
 
         <div className={`md:hidden flex flex-col w-full items-center`}>
         <p className={`flex text-[4.5vh] font-header text-gold1 mt-[2vh]`}>Dr. Sherif Wakil</p>
-            <img className={`w-full h-full object-cover `} src={sherif}></img>
+            <img className={`w-full h-full object-cover `} src={sherif_new}></img>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
             <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>The P-Shot® is an integral component of the revolutionary therapy known as The O Concept™. This comprehensive approach encompasses cutting-edge technology, innovative treatments, and natural supplements aimed at enhancing sexual well-being.</p>

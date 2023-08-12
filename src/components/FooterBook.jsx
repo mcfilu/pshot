@@ -4,12 +4,7 @@ function FooterBook() {
     const active_path = window.location.pathname;
     const w_height = window.screen.height;
     const to_start = () => {
-      if (active_path === '/contact-us') {
-        return true;
-      }
-      else {
-        return false
-      }
+      return false;
     }
     const[color, setColor] = React.useState(to_start)
 

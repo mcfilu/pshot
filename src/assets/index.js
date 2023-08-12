@@ -133,6 +133,30 @@ import shockwave3 from './shockwave3.jpg';
 import ed from './ed.jpg';
 import renova from './renova.jpg';
 import diet from './diet.jpg';
+import clinic_bg from './clinic_bg.jpeg';
+import clinic_hallway from './clinic_hallway.jpeg';
+import clinic_reception from './clinic_reception.jpeg';
+import clinic_room from './clinic_room.jpeg';
+import sherif_bg from './sherif_bg.jpeg';
+import sherif_consultation from './sherif_consultation.jpeg';
+import sherif_new from './sherif_new.jpeg';
+import sherif_plan from './sherif_plan.jpeg';
+import pshot_before2 from './pshot_before2.jpg';
+import pshot_after2 from './pshot_after2.jpeg';
+import pshot_before3 from './pshot_before3.jpeg';
+import pshot_after3 from './pshot_after3.jpeg';
+import pshot_before4 from './pshot_before4.jpeg';
+import pshot_after4 from './pshot_after4.jpeg';
+import sherif_hands from './sherif_hands.jpeg';
+import sherif_comp from './sherif_comp.jpeg';
+import sherif_standing from './sherif_standing.jpeg';
+import sherif_bg_mobile from './sherif_bg_mobile.jpeg';
+import endo from './endo.jpeg';
+import channel4 from './channel4.png';
+import award6 from './award6.png';
+import size from './size.png';
+import penis_shape from './penis_shape.png';
+
 
 
 
@@ -271,4 +295,27 @@ export {
     ed,
     renova,
     diet,
+    clinic_bg,
+    clinic_hallway,
+    clinic_reception,
+    clinic_room,
+    sherif_bg, 
+    sherif_consultation,
+    sherif_new,
+    sherif_plan,
+    pshot_before2,
+    pshot_after2,
+    pshot_before3,
+    pshot_after3,
+    pshot_before4,
+    pshot_after4,
+    sherif_comp,
+    sherif_hands,
+    sherif_standing,
+    sherif_bg_mobile,
+    endo,
+    channel4,
+    award6,
+    size,
+    penis_shape,
 };

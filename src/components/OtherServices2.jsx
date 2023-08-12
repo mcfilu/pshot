@@ -53,7 +53,7 @@ const OtherServices2 = () => {
         </div>
 
 
-        <div  onMouseEnter={() => setHove1((prev) => !prev)} onMouseLeave={() => setHove1((prev) => !prev)} className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
+        <div  onMouseEnter={() => setHove1((prev) => !prev)} onMouseLeave={() => setHove1((prev) => !prev)} className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px]  shadow-[0px_0px_20px_1px_#ad9444]`}>
         <a href="https://www.vampirebreastlift.co.uk">
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover ${hov1 ? 'scale-125' : ''}`} src={boobs1}></img>
@@ -86,7 +86,8 @@ const OtherServices2 = () => {
                 </div>
             </div>
             <div className={` flex flex-col w-full  pt-[2vh] pb-[2.5vh] px-[1vh] md:px-[2vh]`}>
-                <p className={`flex text-black text-[2.1vh] text-justify font-main`}>Explore the innovative and expertly tailored treatments offered at Dr. SW's Clinics, where we specialize in aesthetic enhancements and sexual rejuvenation therapies. We invite you to visit our website to learn about the myriad of transformative possibilities we provide.</p>
+                {/* <p className={`flex text-black text-[2.1vh] text-justify font-main`}>Explore the innovative and expertly tailored treatments offered at Dr. SW's Clinics, where we specialize in aesthetic enhancements and sexual rejuvenation therapies. We invite you to visit our website to learn about the myriad of transformative possibilities we provide.</p> */}
+                <p className={`flex text-black text-[2.1vh] text-justify font-main`}>Dr Wakil runs the finest Aesthetic Clinics UK in Harley Street and has performed more than 19,000 procedures to date and has introduced a number of new treatments to the UK, including the P-Shot and the O-Shot, Vampire Breast lift, Vampire facelift, as well as being a pioneer of the soft surgery approach.</p>
                 
             </div>
             {/* <NavLink to={`/breast-reduction`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink> */}

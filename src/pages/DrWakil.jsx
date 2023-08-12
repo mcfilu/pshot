@@ -19,24 +19,8 @@ import { Helmet } from 'react-helmet-async'
 
 
 
-import ClinicReviews from '../components/ClinicReviews'
-import YoutubeTestimonials from '../components/YoutubeTestimonials'
 
-import TrustPilotSlider from '../components/TrustPilotSlider'
-
-
-import PshotBenefits from '../components/PshotBenefits'
-import PshotCompare from '../components/PshotCompare'
-import PshotDetails from '../components/PshotDetails'
-import PshotFaqs from '../components/PshotFaqs'
-import PshotImage from '../components/PshotImage'
-import PshotOpening from '../components/PshotOpening'
-import PshotServices from '../components/PshotServices'
-import PshotSummary from '../components/PshotSummary'
-import PshotTreated from '../components/PshotTreated'
-import PshotVideo from '../components/PshotVideo'
-import FooterBook from '../components/FooterBook'
-import OconceptInfo from '../components/OconceptInfo'
+import WakilPreOpening from '../components/WakilPreOpening'
 import { pshot_vid } from '../assets'
 import { useState } from 'react'
 
@@ -56,20 +40,23 @@ const DrWakil = () => {
         </div>
         <div className="flex flex-col bg-black " >
             <div className={`flex flex-col justify-center`}>
-            <div id="wakil_opening" className={`flex  w-full  justify-center items-center mt-[8vh]`} >
-                  <WakilOpening/>
-              </div>
-              
               <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
-                  <WakilDetails/>
+                  <WakilPreOpening/>
+              </div>
+              <div id="wakil_opening" className={`flex  w-full  justify-center items-center mt-[8vh]`} >
+                  <WakilOpening/>
               </div>
               <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
                   <WakilSummary/>
               </div>
-              
               <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
-                  <WakilClinic/>
+                  <WakilDetails/>
               </div>
+              
+              
+              {/* <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
+                  <WakilClinic/>
+              </div> */}
               
               <div className={`flex  w-full justify-center items-center mt-[8vh]`} >
                   <BookNow/>

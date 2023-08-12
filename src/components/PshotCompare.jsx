@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
-import { pshot1before, pshot1after } from '../assets';
+import { pshot1before, pshot1after, pshot_after2, pshot_after3, pshot_after4, pshot_before2, pshot_before3, pshot_before4 } from '../assets';
 
 const PshotCompare = () => {
     const [hov1, setHov1] = useState(false);
@@ -30,26 +30,9 @@ const PshotCompare = () => {
         }
         else if (vis4 == false){
             set4(true);
-        }
-        else if (vis5 == false){
-            set5(true);
-        }
-        else if (vis6 == false){
-            set6(true);
-        }
-        else if (vis7 == false){
-            set7(true);
-        }
-        else if (vis8 == false){
-            set8(true);
-        }
-        else if (vis9 == false){
-            set9(true);
-        }
-        else if (vis10 == false){
-            set10(true);
             setButton(false);
         }
+        
          
     
     }
@@ -77,9 +60,57 @@ const PshotCompare = () => {
                     <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={pshot1after}></img>
                 </div>
             </div>
+            <div onMouseEnter={() => setHov2(true)} onMouseLeave={() => {setHov2(false)}} className={`flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
+                <div className={`flex w-full h-full justify-between ${hov2 ? '' : 'hidden'} ease-in-out duration-500`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
+                        <ReactCompareSlider
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={pshot_before2} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={pshot_after2} srcSet={pshot_after2} alt="Image two" />}
+                        />
+                    </div>
+                    
+                </div>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov2 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={pshot_before2}></img>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={pshot_after2}></img>
+                </div>
+            </div>
+            <div onMouseEnter={() => setHov3(true)} onMouseLeave={() => {setHov3(false)}} className={`${vis3 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
+                <div className={`flex w-full h-full justify-between ${hov3 ? '' : 'hidden'} ease-in-out duration-500`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
+                        <ReactCompareSlider
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={pshot_before3} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={pshot_after3} srcSet={pshot_after3} alt="Image two" />}
+                        />
+                    </div>
+                    
+                </div>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov3 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={pshot_before3}></img>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={pshot_after3}></img>
+                </div>
+            </div>
+            <div onMouseEnter={() => setHov4(true)} onMouseLeave={() => {setHov4(false)}} className={`${vis4 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
+                <div className={`flex w-full h-full justify-between ${hov4 ? '' : 'hidden'} ease-in-out duration-500`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
+                        <ReactCompareSlider
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={pshot_before4} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={pshot_after4} srcSet={pshot_after4} alt="Image two" />}
+                        />
+                    </div>
+                    
+                </div>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov4 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={pshot_before4}></img>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={pshot_after4}></img>
+                </div>
+            </div>
 
             
-            {/* <button onClick={() => handleImages()} className={`flex mx-auto px-[1vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 text-[2.5vh]  ${buttonVis ? "":"hidden"} mt-[1vh] font-main`}>Load More</button> */}
+            <button onClick={() => handleImages()} className={`flex mx-auto px-[1vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 text-[2.5vh]  ${buttonVis ? "":"hidden"} mt-[1vh] font-main`}>Load More</button>
         </div>
     </div>
     

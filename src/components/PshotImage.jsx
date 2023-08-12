@@ -10,7 +10,7 @@ const PshotImage = () => {
                     {/* <h1 className={`text-gold1 text-[8vh] font-header mb-[3vh] mt-20 text-left`}>Vampire Breast Lift™ </h1> */}
                     <h2 className={`text-gold1 text-[8vh] font-header  mt-[3vh] text-left`}>P-Shot</h2>
                 <h2 className={`text-gold1 text-[8vh] font-header mb-[1vh] text-left`}>Penis PRP</h2>
-                        <h1 className={`text-white text-[2.2vh] md:text-[3vh] font-main mb-[1vh] text-left  w-full md:w-[65%]`}>Enhance Intimacy and Improve Sensation with the P-Shot in London</h1>
+                        <h1 className={`text-white text-[2.2vh] md:text-[3vh] font-main mb-[1vh] text-left  w-[65%]`}>Enhance Intimacy and Improve Sensation with the P-Shot in London</h1>
                         <a href="#pshot_opening" className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
                        
                     {/* </div> */}

@@ -9,6 +9,13 @@ import Awards from '../components/Awards'
 
 import WakilClinic from '../components/WakilClinic'
 import FooterBook from '../components/FooterBook'
+import ContactImage from '../components/ContactImage'
+import ContactAftercare from '../components/ContactAftercare'
+import ContactTreatment from '../components/ContactTreatment'
+import ContactConsultation from '../components/ContactConsultation'
+import ContactBooking from '../components/ContactBooking'
+import ContactPersonalised from '../components/ContactPersonalised'
+import ContactOpening from '../components/ContactOpening'
 import { Helmet } from 'react-helmet-async'
 
 const Contact = () => {
@@ -26,16 +33,34 @@ const Contact = () => {
             <FooterBook/>
         </div>
         <div className={`relative z-0 ` }>
-            {/* <Contact2/> */}
+            <ContactImage/>
         </div>
-        <div className="flex flex-col bg-black pt-[12vh] md:pt-[20vh]" >
+        <div className="flex flex-col bg-black pb-[8vh]" >
             <div className={`flex flex-col justify-center `}>
-              <div className={`flex  w-full justify-center items-center`} >
+              {/* <div className={`flex  w-full justify-center items-center`} >
+                  <ContactOpening/>
+              </div> */}
+              <div className={`flex  w-full justify-center items-center mt-[8vh]`} >
                   <ContactMap/>
               </div>
-              <div className={`flex  w-full justify-center items-center mt-[8vh]`} >
-                  <WakilClinic/>
+              <div className={`flex  w-full justify-center items-center mt-[4vh]`} >
+                  <ContactBooking/>
               </div>
+              <div className={`flex  w-full justify-center items-center mt-[8vh]`} >
+                  <ContactConsultation/>
+              </div>
+              <div className={`flex  w-full justify-center items-center mt-[8vh]`} >
+                  <ContactPersonalised/>
+              </div>
+              <div className={`flex  w-full justify-center items-center mt-[8vh]`} >
+                  <ContactTreatment/>
+              </div>
+              <div className={`flex  w-full justify-center items-center mt-[8vh]`} >
+                  <ContactAftercare/>
+              </div>
+              {/* <div className={`flex  w-full justify-center items-center mt-[8vh]`} >
+                  <WakilClinic/>
+              </div> */}
               <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
                   <BookNow/>
               </div>

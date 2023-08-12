@@ -27,19 +27,19 @@ function PshotSummary() {
                         <div className="icon mb-2">
                         <img className={`h-[9vh]`} src={icon2} alt="" />
                         </div>
-                        <p className="text-[1.9vh] font-light font-main">Recommended No. of Treatments</p>
+                        <p className="text-[1.9vh] font-light font-main text-center">Recommended No. of Treatments</p>
                         {/* <span className="text-[2vh] font-light"></span> */}
                         <h4 className="text-[2.5vh] font-medium mt-[1vh] font-main">One</h4>
                         
                     </div>
 
-                    <div className="inner-item flex flex-col items-center text-white mt-[5vh] md:mt-[0px]">
+                    <div className="inner-item flex flex-col items-center text-white mt-[5vh] md:mt-[0px] md:w-[35%]">
                         <div className="icon mb-2">
                         <img className={`h-[9vh]`} src={icon3} alt="" />
                         </div>
                         <p className="text-[1.9vh] font-light font-main">Anaesthetic</p>
                         {/* <span className="text-[2vh] font-light"></span> */}
-                        <h4 className="text-[2.5vh] font-medium mt-[1vh] font-main">Local (numbing cream /lidocaine injections)</h4>
+                        <h4 className="text-[2.5vh] font-medium mt-[1vh] font-main text-center">Local (numbing cream / lidocaine injections)</h4>
                         
                     </div>
                 </div>

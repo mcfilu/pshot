@@ -50,7 +50,7 @@
 // export default PshotTreated
 
 import React from 'react'
-import {erectile, incontinence, ejaculation} from '../assets'
+import {erectile, incontinence, ejaculation, size, penis_shape} from '../assets'
 
 const PshotTreated = () => {
   return (
@@ -68,10 +68,10 @@ const PshotTreated = () => {
     
         <div className={`flex flex-col bg-black justify-center items-center`}>
             <div className={`flex h-[15vh] w-[25vw] md:w-[10vw]`}>
-                <img src={erectile} className={`w-full h-full object-contain`}></img>
+                <img src={size} className={`w-full h-full object-contain`}></img>
             </div>
             
-            <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Erectile Dysfanction</h1>
+            <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Penis Size</h1>
             {/* <h1 className={`text-gold1 text-[4vh] text-left font-main `}>Increase</h1> */}
             {/* <h1 className={` text-gold2 text-[5.5vh] text-left`}>Size</h1> */}
         </div>
@@ -84,10 +84,10 @@ const PshotTreated = () => {
     
         <div className={`flex flex-col bg-black justify-center items-center`}>
             <div className={`flex h-[15vh]  w-[25vw] md:w-[10vw]`}>
-                <img src={ejaculation} className={`w-full h-full object-contain`}></img>
+                <img src={erectile} className={`w-full h-full object-contain`}></img>
             </div>
             
-            <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Premature Ejaculation</h1>
+            <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Firmer Erection</h1>
             {/* <h1 className={` text-white text-[5.5vh] text-left`}>Texture</h1> */}
         </div>
         
@@ -100,10 +100,10 @@ const PshotTreated = () => {
     
         <div className={`flex flex-col bg-black justify-center items-center`}>
             <div className={`flex h-[15vh]  w-[25vw] md:w-[10vw]`}>
-                <img src={incontinence} className={`w-full h-full object-contain`}></img>
+                <img src={penis_shape} className={`w-full h-full object-contain`}></img>
             </div>
             
-            <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Incontinence</h1>
+            <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Penis Shape</h1>
             {/* <h1 className={` text-gold2 text-[5.5vh] text-left`}>Rippling</h1> */}
         </div>
         

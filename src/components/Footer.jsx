@@ -19,7 +19,7 @@ const Footer = () => {
             <h1 className={`text-[4vh] text-gold1 md:text-[3vh] text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] font-header`}>Contact Us</h1>
           <p className="mb-[0.9vh] text-[2vh] md:text-[1.1vw] font-main"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@drswclinics.co.uk'><i className="fas fa-envelope mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Info@drswclinics.co.uk</a></p>
           <p className="mb-[0.9vh] text-[2vh] md:text-[1.1vw] font-main"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 3006 8459"><i className="fas fa-phone mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>+44 (0)20 3006 8459 </a></p>
-          <NavLink to={`/book-now`}><button className={`bg-black border-gold1 border-2 hover:bg-white text-gold1 text-[3vh] md:text-[1.2vw] md:w-[8vw] font-main`}>Book Now</button></NavLink>
+          <NavLink to={`/book-now`}><button className={`bg-black border-gold1 border-2 hover:bg-white text-gold1 text-[3vh] md:text-[1.2vw] md:w-[8vw] font-main px-[1vh]`}>Book Now</button></NavLink>
         </div>
 
         {/* Find us */}
@@ -53,7 +53,7 @@ const Footer = () => {
         {/* Other Useful Information */}
         <div className="text-[0.7vw] flex flex-col md:mr-[3vh] md:w-[20vw]">
             <h1 className={`text-[4vh] md:text-[3vh] text-gold1 text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] text-center font-header`}>Accredited</h1>
-            <div className={`grid grid-cols-2 md:grid-cols-4 `}>
+            <div className={`grid grid-cols-2 md:grid-cols-4 place-items-center`}>
                 <img src={footer1} alt="Logo" className="h-[8vh] m-[0.9vh] ml-0" />
                 <img src={footer2 } alt="Logo" className="h-[8vh] m-[0.9vh]" />
                 <img src={bcam} alt="Logo" className="h-[8vh] m-[0.9vh]" />

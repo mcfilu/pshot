@@ -25,12 +25,12 @@ export const navLinks = [
     },
     {
         id: 'dr-wakil',
-        title: 'Dr.SW Clinics',
+        title: 'Dr Sherif Wakil',
         link: "/dr-wakil",
     },
     {
         id: 'contact',
-        title: 'Contact',
+        title: 'Contact Us',
         link: "/contact-us",
     },
 ]

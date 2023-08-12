@@ -71,7 +71,7 @@ const ShockTreated = () => {
                 <img src={orgasm} className={`w-full h-full object-contain`}></img>
             </div>
             
-            <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Improve Orgasms</h1>
+            <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Improved Orgasms</h1>
             {/* <h1 className={`text-gold1 text-[4vh] text-left font-main `}>Increase</h1> */}
             {/* <h1 className={` text-gold2 text-[5.5vh] text-left`}>Size</h1> */}
         </div>

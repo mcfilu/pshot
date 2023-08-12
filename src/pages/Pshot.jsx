@@ -22,7 +22,7 @@ import PshotTreated from '../components/PshotTreated'
 import PshotVideo from '../components/PshotVideo'
 import FooterBook from '../components/FooterBook'
 import OconceptInfo from '../components/OconceptInfo'
-import { pshot_vid } from '../assets'
+// import { pshot_vid } from '../assets'
 import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 const Pshot = () => {
@@ -38,9 +38,9 @@ const Pshot = () => {
             <title>Revitalize Your Intimacy with the P-Shot in London | P-Shot</title>
             <meta name='description' content="Revitalize your life with the best P-Shot treatment in London by Dr. Sherif Wakil. Regain confidence and call +44 (0)20 3006 8459 now. Reclaim your vitality!" />
         </Helmet>
-        <div className={`hidden md:flex fixed z-20 `}>
+        {/* <div className={`hidden md:flex fixed z-20 `}>
             <video src={pshot_vid} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
-        </div>
+        </div> */}
 
         <div className={`fixed z-10 `}>
             <Navbar/>

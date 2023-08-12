@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
-import { chair1, shockwave1, oshot1, chair3, pshot1, ed, renova, diet} from '../assets';
+import { chair1, shockwave1, oshot1, chair3, pshot1, ed, renova, diet, endo} from '../assets';
 
 
 
@@ -95,15 +95,13 @@ penis to stimulate a regenerative process.</p>
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover ${hov4 ? 'scale-125' : ''}`} src={ed}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>Natural</h1>
-                    <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>ED Shots</h1>
+                    <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>O-Concept</h1>
+                    <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>Endo-test</h1>
                 </div>
             </div>
             
             <div className={`relative flex flex-col w-full  items-center py-[1vh] px-[2vh]`}>
-                <p className={`flex text-black text-[2.1vh] text-justify font-main`}>ED Shots are injections into the penis. They are safe, non-surgical and natural
-treatment. They are pain free using a strong local anaesthesia and treatment takes
-20-40 minutes with no downtime and no reported side-effects.</p>
+                <p className={`flex text-black text-[2.1vh] text-justify font-main`}>Endo-test works by encouraging the body to naturally increase its production of testosterone in the body. This can produce particularly positive results in sexual functioning. The O concept Endo-test is exclusive to Dr. SW Clinics and has been specially developed by Dr. Wakil himself.</p>
                 
             </div>
             {/* <NavLink to={`/breast-augmentation`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink> */}

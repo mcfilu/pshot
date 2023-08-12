@@ -10,7 +10,7 @@ const OconceptImage = () => {
                     {/* <h1 className={`text-gold1 text-[8vh] font-header mb-[3vh] mt-20 text-left`}>Vampire Breast Lift™ </h1> */}
                     <h2 className={`text-gold1 text-[8vh] font-header  mt-[3vh] text-left`}>O-Concept</h2>
                 <h2 className={`text-gold1 text-[8vh] font-header mb-[1vh] text-left`}>For Him</h2>
-                        <h1 className={`text-white text-[2.2vh] md:text-[2.5vh] font-main mb-[1vh] text-left  w-full md:w-[65%]`}>Discover the Ultimate Sexual Wellness Experience: O Concept Treatment in London</h1>
+                        <h1 className={`text-white text-[2.2vh] md:text-[2.5vh] font-main mb-[1vh] text-left  w-[65%]`}>Discover the Ultimate Sexual Wellness Experience: O Concept Treatment in London</h1>
                         <a href="#oconcept_opening" className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
                        
                     {/* </div> */}
